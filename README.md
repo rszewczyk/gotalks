@@ -1,4 +1,4 @@
-# Git Talks
+# Go Talks
 
 This repository contains the source code for Go talks that I have given (just one so far).
 
