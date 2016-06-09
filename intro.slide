@@ -1,8 +1,9 @@
 Introduction to Go
 
+June 9, 2016
+
 Rob Szewczyk
-Developer
-Next Century
+Developer, Next Century
 rob.szew@gmail.com
 
 * What is Go?
@@ -261,8 +262,8 @@ Iterfaces
 
 	func (w *WriteCounter) Write(p []byte) (int, err) { ...} 
 
-	dst, _ := os.Create("someFile")
-	src := &WriteCounter{ ... }
+	src, _ := os.Open("someFile")
+	dst := &WriteCounter{ ... }
 
 	io.Copy(dst, src)
 
